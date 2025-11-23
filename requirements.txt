@@ -1,4 +1,8 @@
 python-dotenv
+ipykernel
 psycopg[binary]
 pandas
+matplotlib
+seaborn
+numpy
 

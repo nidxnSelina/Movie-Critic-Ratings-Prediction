@@ -22,16 +22,12 @@ conn = psycopg.connect(
 )
 print("Connected successfully!")
 
-# --- Query the movies table in the public schema ---
+# query and save the dataset
 query = """
 SELECT *
 FROM public.movies
-LIMIT 10;
 """
-
 df = pd.read_sql(query, conn)
+df.to_csv("movie_dataset.csv")
 
-print(df.head())
-
-# --- Close the connection ---
 conn.close()
