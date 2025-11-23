@@ -28,6 +28,6 @@ SELECT *
 FROM public.movies
 """
 df = pd.read_sql(query, conn)
-df.to_csv("movie_dataset.csv")
+df.to_csv("data/movie_raw.csv")
 
 conn.close()
