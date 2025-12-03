@@ -2,7 +2,6 @@
 .ipynb_checkpoints
 .venv
 .env
-*.csv
 load.py
 data/movie_processed.csv
 
