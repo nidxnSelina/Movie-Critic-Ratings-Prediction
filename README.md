@@ -4,7 +4,7 @@ This project analyzes movie metadata and builds regression models to predict **c
 
 ## Structure
 ```
-FINAL_PROJECT/
+/
 ├── data/
 │   └── movie_raw.csv
 │
