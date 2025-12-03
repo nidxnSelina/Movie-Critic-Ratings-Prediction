@@ -3,5 +3,7 @@
 .venv
 .env
 *.csv
-data/
+load.py
+data/movie_processed.csv
+
 
